@@ -1,4 +1,5 @@
-var swipeButton = document.querySelector('.recsGamepad__button--like');
+var swipeButton = document.querySelectorAll('button')[23];
+// change the index of swipe button by doing inspect element
 var likeCount = 0;
 
 function swipeRight() {
